@@ -1,0 +1,104 @@
+.row_col {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-inline: auto;
+
+    .team_card {
+        position: relative;
+        flex: 1;
+        flex-basis: 270px;
+        background-color: #fff;
+        box-shadow: 0 0 6px #00000040;
+
+        &:hover {
+            .team_img {
+                .social_link_list li {
+                    visibility: visible;
+                    opacity: 1;
+                    transform: scale(1);
+                }
+            }
+        }
+
+        .team_img {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            max-height: 300px;
+
+            img {
+                position: relative;
+                width: 100%;
+                height: 300px;
+                object-fit: cover;
+            }
+
+            .social_link_list {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                width: 100%;
+                bottom: 8px;
+                gap: 8px;
+
+                li {
+                    visibility: hidden;
+                    opacity: 0;
+                    transform: scale(0);
+                    transition: all 1s ease-in-out;
+                }
+
+                .social_link {
+                    display: block;
+                    flex-grow: 1;
+                    padding: 8px 12px;
+                    background: red;
+                    font-size: 24px;
+                    color: #fff;
+                    border-radius: 5px;
+                }
+
+                li:nth-child(1) {
+                    .social_link {
+                        background: #1877f2;
+                    }
+                }
+
+                li:nth-child(2) {
+                    .social_link {
+                        background: #db0486;
+                    }
+                }
+
+                li:nth-child(3) {
+                    .social_link {
+                        background: #2a67bc;
+                    }
+                }
+
+                li:nth-child(4) {
+                    .social_link {
+                        background: black;
+                    }
+                }
+            }
+        }
+
+        .team_content {
+            padding: 20px;
+
+            h2 {
+                font-size: 18px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "testimonials": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "image": "https://example.com/john-doe-image.jpg",
+        "message": "Exceptional service! Fruitwala consistently delivers the freshest produce. Fast, reliable, and always exceeds expectations. Highly recommend for quality and convenience.",
+        "rating": 5
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "image": "https://example.com/jane-smith-image.jpg",
+        "message": "Great experience with Fruitwala! Their commitment to quality shines through. Freshness delivered to my doorstep every time. A customer for life!",
+        "rating": 4.5
+      },
+      {
+        "id": 3,
+        "name": "Samuel Williams",
+        "image": "https://example.com/samuel-williams-image.jpg",
+        "message": "Top-notch service! Fruitwala's produce is unmatched. Quick delivery, superb quality. My go-to for fresh fruits, vegetables, and dry fruits. Highly recommended!",
+        "rating": 4
+      },
+      {
+        "id": 4,
+        "name": "Emily Johnson",
+        "image": "https://example.com/emily-johnson-image.jpg",
+        "message": "Fruitwala's variety is outstanding. The quality and service are unparalleled. A delightful experience for anyone who appreciates fresh and flavorful produce.",
+        "rating": 4.5
+      },
+      {
+        "id": 5,
+        "name": "Daniel Brown",
+        "image": "https://example.com/daniel-brown-image.jpg",
+        "message": "Impressed by Fruitwala's prompt deliveries and exceptional quality. The range of fruits, vegetables, and dry fruits is truly remarkable. Highly satisfied!",
+        "rating": 3.5
+      },
+      {
+        "id": 6,
+        "name": "Olivia White",
+        "image": "https://example.com/olivia-white-image.jpg",
+        "message": "Fantastic service! Fruitwala's commitment to freshness and customer satisfaction is evident. Their diverse range keeps me coming back. Highly recommended!",
+        "rating": 5
+      }
+    ]
+  }
+  

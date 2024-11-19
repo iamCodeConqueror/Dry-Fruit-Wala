@@ -1,0 +1,97 @@
+.footer {
+    background: #fff;
+    border-top: 2px solid #FF5722;
+    margin-top: 22px;
+    width: 100%;
+
+    .footer_top {
+        max-width: 1440px;
+        margin: auto;
+        padding: 40px;
+        background: #efefef;
+
+        .footer_content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
+            gap: 3rem;
+        }
+
+        .overview_content {
+            flex: 2;
+            padding-right: 20px;
+
+            .logo_text {
+                font-size: 20px;
+                font-weight: 700;
+
+                span {
+                    color: #FF5722;
+                }
+
+                .logo_icon {
+                    margin-right: 6px;
+                    vertical-align: bottom;
+                    width: 40px;
+                }
+            }
+
+            p {
+                font-size: 15px;
+                margin: 8px 0;
+                color: #313131;
+            }
+
+            a {
+                font-size: 14px;
+                color: #313131;
+            }
+        }
+
+        .sub_menu {
+            flex: 1;
+        }
+
+        .sub_menu li {
+            font-size: 14px;
+            margin-left: 8px;
+            margin-bottom: 10px;
+            color: #313131;
+        }
+
+        .sub_menu h3 {
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 14px;
+            border-bottom: 1px solid;
+            width: max-content;
+            margin-bottom: 1rem;
+            color: #FF5722;
+        }
+    }
+
+    .footer_bottom {
+        display: flex;
+        justify-content: space-between;
+        padding: 18px 40px;
+        background: #313131;
+        color: #fff;
+        text-transform: capitalize;
+    }
+}
+
+@media (max-width:460px) {
+    .footer_bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer_content {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .footer_top {
+        padding: 20px !important;
+    }
+}

@@ -1,0 +1,192 @@
+.hero {
+    position: relative;
+    isolation: isolate;
+    padding: 20px 40px;
+    background: #424242;
+    height: 75vh;
+    overflow: hidden;
+
+    &::before {
+        position: absolute;
+        content: '';
+        top: 100px;
+        left: -300px;
+        width: 600px;
+        height: 600px;
+        background: #666;
+        border-radius: 50%;
+        opacity: 0.5;
+        z-index: -1;
+        box-shadow: 0 0 0 120px #515151;
+    }
+
+    &::after {
+        position: absolute;
+        content: '';
+        bottom: 200px;
+        right: -100px;
+        width: 500px;
+        height: 500px;
+        background: #666;
+        border-radius: 50%;
+        opacity: 0.5;
+        z-index: -1;
+        box-shadow: 0 0 0 120px #515151;
+    }
+
+    .content {
+        display: flex;
+        gap: 2rem;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+
+        .text_content {
+            flex: 1;
+            margin: auto;
+            z-index: 2;
+            color: #fff;
+
+            h2 {
+                font-size: 48px;
+                line-height: 52px;
+
+                span {
+                    color: #ff5722;
+                }
+            }
+
+            p {
+                margin-block: 12px;
+                font-size: 18px;
+            }
+
+            button {
+                border: none;
+                outline: none;
+                padding: 12px 30px;
+                font-size: 18px;
+                border-radius: 30px;
+                cursor: pointer;
+                background: #ff5722;
+                color: #fff;
+            }
+        }
+
+        .img_area {
+            position: relative;
+            isolation: isolate;
+            flex: 1;
+            width: 100%;
+            height: 100%;
+            user-select: none;
+            pointer-events: none;
+
+            img {
+                width: 240px;
+                position: absolute;
+
+                &.img1 {
+                    left: 0;
+                    width: 90%;
+                    z-index: 1;
+                }
+
+                &.img2 {
+                    bottom: -3%;
+                    right: 140%;
+                    width: 50%;
+                    z-index: 2;
+                }
+
+                &.img3 {
+                    left: 45px;
+                    width: 90%;
+                    z-index: 0;
+                    
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1025px) {
+    .hero {
+        .content {
+            .text_content {
+                h2 {
+                    font-size: 32px;
+                    line-height: 40px;
+                }
+
+                p {
+                    font-size: 14px;
+                }
+
+                button {
+                    padding: 10px 24px;
+                    font-size: 14px;
+                }
+            }
+
+            .img_area img.img1 {
+                left: 0;
+                top: 15%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:800px) {
+    .hero {
+        &::before {
+            top: 100px;
+            left: 10px;
+            width: 200px;
+            height: 200px;
+        }
+
+        &::after {
+            bottom: -25px;
+            right: -50px;
+            width: 200px;
+            height: 200px;
+        }
+    }
+
+    .hero .content .img_area {
+        position: absolute;
+        opacity: 0.5;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .hero {
+        padding: 20px !important;
+
+        .content {
+            .text_content {
+                h2 {
+                    font-size: 24px;
+                    line-height: 30px;
+                }
+
+                p {
+                    font-size: 12px;
+                }
+            }
+
+            .img_area {
+                img {
+                    &.img2 {
+                        bottom: -5%;
+                        right: 20%;
+                        width: 80%;
+                    }
+
+                }
+            }
+        }
+    }
+}

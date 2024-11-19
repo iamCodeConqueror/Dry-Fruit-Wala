@@ -1,0 +1,13 @@
+.product_overview {
+    position: relative;
+    padding: 20px;
+    min-height: 250px;
+    font-size: 1rem;
+    border-radius: 8px;
+    background-color: #636363;
+    box-shadow: 4px 3px 8px rgba(0, 0, 0, .2078431373);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: #fff;
+}

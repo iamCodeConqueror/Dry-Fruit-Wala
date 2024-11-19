@@ -1,0 +1,109 @@
+.our_story {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    // flex-wrap: wrap;
+    margin-block: 40px;
+
+    .img {
+        flex: 1;
+        flex-basis: 40%;
+        border-radius: 12px;
+        display: flex;
+        justify-content: center;
+
+        img {
+            max-width: 500px;
+            max-height: 400px;
+            width: 55%;
+            height: 100%;
+            object-position: center;
+            // object-fit: cover;
+            border: 5px solid #7d4610;
+            border-radius: 12px;
+            box-shadow: -10px -10px 0 #e8953f7a, 4px 4px 12px #00000040;
+        }
+    }
+
+    .content {
+        flex: 1;
+        flex-basis: 50%;
+
+        .features {
+            margin-top: 1rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+
+            div {
+                width: fit-content;
+                padding: 2px;
+                padding-right: 12px;
+                border: 2px solid #FF5722;
+                border-radius: 30px;
+                display: flex;
+                gap: 1rem;
+                align-items: center;
+
+                svg {
+                    border-radius: 50%;
+                    font-size: 36PX;
+                    padding: 7px;
+                    background: #FF5722;
+                    color: #fff;
+                }
+
+                &:nth-child(1) {
+                    border-color: #fd6b65;
+                    color: #fd6b65;
+
+                    svg {
+                        background: #fd6b65;
+                    }
+                }
+
+                &:nth-child(2) {
+                    border-color: #3179bd;
+                    color: #3179bd;
+
+                    svg {
+                        background: #3179bd;
+                    }
+                }
+
+                &:nth-child(3) {
+                    border-color: #97da7b;
+                    color: #97da7b;
+
+                    svg {
+                        background: #97da7b;
+                    }
+                }
+
+                &:nth-child(4) {
+                    border-color: #9a67f8;
+                    color: #9a67f8;
+
+                    svg {
+                        background: #9a67f8;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    .our_story {
+        flex-direction: column;
+        padding: 20px;
+
+        .content {
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+}

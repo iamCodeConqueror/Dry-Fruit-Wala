@@ -1,0 +1,542 @@
+[
+  {
+    "id": 1,
+    "name": "Ajjain",
+    "price": 500,
+    "rating": 4.1,
+    "color": "#a7dd94",
+    "category": "Spices",
+    "liked": false,
+    "image": "https://i.ibb.co/PjHwDxr/Ajjain.png"
+  },
+  {
+    "id": 2,
+    "name": "Biriyani leaf",
+    "price": 99,
+    "rating": 4.5,
+    "color": "#aadba2",
+    "category": "Spices",
+    "liked": false,
+    "image": "https://i.ibb.co/MStWFqg/Biryanileaf.png"
+  },
+  {
+    "id": 3,
+    "name": "Clove",
+    "price": 105,
+    "rating": 4.1,
+    "color": "#b6b3bf",
+    "category": "Spices",
+    "liked": false,
+    "image": "https://i.ibb.co/gR6T3qF/clove.png"
+  },
+  {
+    "id": 4,
+    "name": "Coriander Seeds",
+    "price": 450,
+    "rating": 4.1,
+    "color": "#edd251",
+    "category": "Spices",
+    "liked": false,
+    "image": "https://i.ibb.co/8j78m9r/Corrainderseeds.png"
+  },
+  {
+    "id": 5,
+    "name": "Dalchina",
+    "price": 380,
+    "rating": 4.1,
+    "color": "#f0728b",
+    "category": "Spices",
+    "liked": false,
+    "image": "https://i.ibb.co/KLsPcBM/Dalchina.png"
+  },
+  {
+    "id": 6,
+    "name": "Elaichi",
+    "price": 890,
+    "rating": 4.1,
+    "color": "#e9c886",
+    "category": "Spices",
+    "liked": false,
+    "image": "https://i.ibb.co/bLX1FRk/elachi.png"
+  },
+  {
+    "id": 7,
+    "name": "Garam Masala",
+    "price": 500,
+    "rating": 4.1,
+    "color": "#b6b3bf",
+    "category": "Spices",
+    "liked": false,
+    "image": "https://i.ibb.co/S54LWqv/Garammasala.png"
+  },
+  {
+    "id": 8,
+    "name": "Black Pepper",
+    "price": 150,
+    "rating": 4.1,
+    "color": "#94cf7d",
+    "category": "Spices",
+    "liked": false,
+    "image": "https://i.ibb.co/0Vmm90s/Blackpepper.png"
+  },
+  {
+    "id": 9,
+    "name": "Japatri",
+    "price": 900,
+    "rating": 4.1,
+    "color": "#add76c",
+    "category": "Spices",
+    "liked": false,
+    "image": "https://i.ibb.co/nQrWx8W/Japatri.png"
+  },
+  {
+    "id": 10,
+    "name": "Jeera",
+    "price": 150,
+    "rating": 4.1,
+    "color": "#b0c972",
+    "category": "Spices",
+    "liked": false,
+    "image": "https://i.ibb.co/VtHMqKZ/Jeera.png"
+  },
+  {
+    "id": 11,
+    "name": "Star-Anise",
+    "price": 800,
+    "rating": 4.1,
+    "color": "#f7b18c",
+    "category": "Spices",
+    "liked": false,
+    "image": "https://i.ibb.co/v1p6vPt/Star-Anise.png"
+  },
+  {
+    "id": 12,
+    "name": "Turmeric",
+    "price": 200,
+    "rating": 4.1,
+    "color": "#a3ddd6",
+    "category": "Spices",
+    "liked": false,
+    "image": "https://i.ibb.co/c8MNMqc/Turmeric.png"
+  },
+  {
+    "id": 13,
+    "name": "White Pepper",
+    "price": 980,
+    "rating": 4.1,
+    "color": "#e3b984",
+    "category": "Spices",
+    "liked": false,
+    "image": "https://i.ibb.co/9NpkRdR/White-Pepper.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Chilly Powder",
+    "price": 300,
+    "rating": 4.1,
+    "color": "#eee28e",
+    "category": "Spices",
+    "liked": false,
+    "image": "https://i.ibb.co/qddTSN0/Chilly-Powder.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Gasagaslu",
+    "price": 450,
+    "rating": 4.1,
+    "color": "#f47775",
+    "category": "Spices",
+    "liked": false,
+    "image": "https://i.ibb.co/KGcsw6T/Gasalu.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Apricot",
+    "price": 500,
+    "rating": 4.1,
+    "color": "#97c764",
+    "category": "Dry Fruits",
+    "liked": false,
+    "image": "https://i.ibb.co/DM8mFnP/Apricot.png"
+  },
+  {
+    "id": 17,
+    "name": "Badam",
+    "price": 720,
+    "rating": 4.1,
+    "color": "#86ab85",
+    "category": "Dry Fruits",
+    "liked": false,
+    "image": "https://i.ibb.co/6rBF6n7/badam.png"
+  },
+  {
+    "id": 18,
+    "name": "Blackdrydates",
+    "price": 375,
+    "rating": 4.1,
+    "color": "#f0c861",
+    "category": "Dry Fruits",
+    "liked": false,
+    "image": "https://i.ibb.co/mv9LVFK/Blackdrydates.png"
+  },
+  {
+    "id": 19,
+    "name": "Black Raisins",
+    "price": 275,
+    "rating": 4.1,
+    "color": "#abc25c",
+    "category": "Dry Fruits",
+    "liked": false,
+    "image": "https://i.ibb.co/kKHV9rR/Blackraisins.png"
+  },
+  {
+    "id": 20,
+    "name": "Cashew",
+    "price": 780,
+    "rating": 4.1,
+    "color": "#c3ce72",
+    "category": "Dry Fruits",
+    "liked": false,
+    "image": "https://i.ibb.co/tXzsnDM/cashew.png"
+  },
+  {
+    "id": 21,
+    "name": "Dry Coconut",
+    "price": 120,
+    "rating": 4.1,
+    "color": "#e0cf77",
+    "category": "Dry Fruits",
+    "liked": false,
+    "image": "https://i.ibb.co/rQY3VpC/Dry-Cocunut.png"
+  },
+  {
+    "id": 22,
+    "name": "Dry Dates",
+    "price": 250,
+    "rating": 4.1,
+    "color": "#9cda52",
+    "category": "Dry Fruits",
+    "liked": false,
+    "image": "https://i.ibb.co/kGNq9wQ/DryDates.png"
+  },
+  {
+    "id": 23,
+    "name": "Green Raisins",
+    "price": 275,
+    "rating": 4.1,
+    "color": "#ddb69a",
+    "category": "Dry Fruits",
+    "liked": false,
+    "image": "https://i.ibb.co/x6xy8LR/Greenraisins.png"
+  },
+  {
+    "id": 24,
+    "name": "Kimia",
+    "price": 150,
+    "rating": 4.1,
+    "color": "#ddb69a",
+    "category": "Dry Fruits",
+    "liked": false,
+    "image": "https://i.ibb.co/zftdjD1/Kimia.png"
+  },
+  {
+    "id": 25,
+    "name": "Kissmiss",
+    "price": 99,
+    "rating": 4.1,
+    "color": "#c8dc4d",
+    "category": "Dry Fruits",
+    "liked": false,
+    "image": "https://i.ibb.co/8x7R9sL/Kissmiss.png"
+  },
+  {
+    "id": 26,
+    "name": "Plainpista",
+    "price": 999,
+    "rating": 4.1,
+    "color": "#7ca659",
+    "category": "Dry Fruits",
+    "liked": false,
+    "image": "https://i.ibb.co/cY6r2Qp/plainpista.png"
+  },
+  {
+    "id": 27,
+    "name": "Salted Pista",
+    "price": 599,
+    "rating": 4.1,
+    "color": "#929c69",
+    "category": "Dry Fruits",
+    "liked": false,
+    "image": "https://i.ibb.co/JkRftT7/saltedpista.png"
+  },
+  {
+    "id": 28,
+    "name": "Sia seeds",
+    "price": 159,
+    "rating": 4.1,
+    "color": "#86b56f",
+    "category": "Dry Fruits",
+    "liked": false,
+    "image": "https://i.ibb.co/3YpnnDd/siaseeds.png"
+  },
+  {
+    "id": 29,
+    "name": "Allmix",
+    "price": 1029,
+    "rating": 4.1,
+    "color": "#c0e08e",
+    "category": "Dry Fruits",
+    "liked": false,
+    "image": "https://i.ibb.co/DwStTsM/allmix.png"
+  },
+  {
+    "id": 30,
+    "name": "Anjeer",
+    "price": 999,
+    "rating": 4.1,
+    "color": "#c0e08e",
+    "category": "Dry Fruits",
+    "liked": false,
+    "image": "https://i.ibb.co/hM6q8zt/Anjeer.png"
+  },
+  {
+    "id": 31,
+    "name": "Black-Berry",
+    "price": 629,
+    "rating": 4.1,
+    "color": "#a7cc5b",
+    "category": "Seeds",
+    "liked": false,
+    "image": "https://i.ibb.co/9yTkDZs/Black-Berry.png"
+  },
+  {
+    "id": 32,
+    "name": "Brazil-Nuts",
+    "price": 499,
+    "rating": 4.1,
+    "color": "#ddceb7",
+    "category": "Seeds",
+    "liked": false,
+    "image": "https://i.ibb.co/3M1zxT3/Brazil-Nuts.png"
+  },
+  {
+    "id": 33,
+    "name": "Cherries",
+    "price": 150,
+    "rating": 4.1,
+    "color": "#99d47b",
+    "category": "Seeds",
+    "liked": false,
+    "image": "https://i.ibb.co/qx9h6YK/Cherries.png"
+  },
+  {
+    "id": 34,
+    "name": "Dosapappu",
+    "price": 99,
+    "rating": 4.1,
+    "color": "#9b5366",
+    "category": "Seeds",
+    "liked": false,
+    "image": "https://i.ibb.co/xjf9gcw/Dosapappu.png"
+  },
+  {
+    "id": 35,
+    "name": "DryKiwi",
+    "price": 199,
+    "rating": 4.1,
+    "color": "#ce534a",
+    "category": "Seeds",
+    "liked": false,
+    "image": "https://i.ibb.co/C0T7vCt/DryKiwi.png"
+  },
+  {
+    "id": 36,
+    "name": "Fennel",
+    "price": 299,
+    "rating": 4.1,
+    "color": "#6f8a44",
+    "category": "Seeds",
+    "liked": false,
+    "image": "https://i.ibb.co/VHbzGr7/fennel.png"
+  },
+  {
+    "id": 37,
+    "name": "Ghee",
+    "price": 600,
+    "rating": 4.1,
+    "color": "#eca340",
+    "category": "Seeds",
+    "liked": false,
+    "image": "https://i.ibb.co/DfnLBzJ/Ghee.png"
+  },
+  {
+    "id": 38,
+    "name": "Flex-Seeds",
+    "price": 49,
+    "rating": 4.1,
+    "color": "#ffd574",
+    "category": "Seeds",
+    "liked": false,
+    "image": "https://i.ibb.co/C5Zs2hv/Flex-Seeds.png"
+  },
+  {
+    "id": 39,
+    "name": "Pumpkin-Seeds",
+    "price": 250,
+    "rating": 4.1,
+    "color": "#c76d72",
+    "category": "Seeds",
+    "liked": false,
+    "image": "https://i.ibb.co/z8mHyF0/Pumpkin-Seeds.png"
+  },
+  {
+    "id": 40,
+    "name": "SunFlower Seeds",
+    "price": 150,
+    "rating": 4.1,
+    "color": "#bbb4a2",
+    "category": "Seeds",
+    "liked": false,
+    "image": "https://i.ibb.co/XtbRjVB/Sun-Flower-Seeds.png"
+  },
+  {
+    "id": 41,
+    "name": "raphanus sativus",
+    "price": 0.99,
+    "rating": 4.1,
+    "color": "#c39797",
+    "category": "vegetable",
+    "liked": false,
+    "image": "https://i.ibb.co/0DMqNTj/raphanus-sativus.png"
+  },
+  {
+    "id": 42,
+    "name": "Red-cabbage",
+    "price": 0.99,
+    "rating": 4.1,
+    "color": "#d79ec6",
+    "category": "vegetable",
+    "liked": false,
+    "image": "https://i.ibb.co/7gYZ3vx/Red-cabbage.png"
+  },
+  {
+    "id": 43,
+    "name": "Rhubarb",
+    "price": 0.99,
+    "rating": 4.1,
+    "color": "#d65c7e",
+    "category": "vegetable",
+    "liked": false,
+    "image": "https://i.ibb.co/kBTbJL3/Rhubarb.png"
+  },
+  {
+    "id": 44,
+    "name": "Romanesco",
+    "price": 0.99,
+    "rating": 4.1,
+    "color": "#788f19",
+    "category": "vegetable",
+    "liked": false,
+    "image": "https://i.ibb.co/g7Qzk6J/Romanesco.png"
+  },
+  {
+    "id": 45,
+    "name": "Savoy-cabbage",
+    "price": 0.99,
+    "rating": 4.1,
+    "color": "#b0c972",
+    "category": "vegetable",
+    "liked": false,
+    "image": "https://i.ibb.co/DWsbZy1/Savoy-cabbage.png"
+  },
+  {
+    "id": 46,
+    "name": "Spinach",
+    "price": 0.99,
+    "rating": 4.1,
+    "color": "#9bc361",
+    "category": "vegetable",
+    "liked": false,
+    "image": "https://i.ibb.co/cLZnczk/Spinach.png"
+  },
+  {
+    "id": 47,
+    "name": "Strawberry",
+    "price": 0.99,
+    "rating": 4.1,
+    "color": "#f8766b",
+    "category": "fruit",
+    "liked": false,
+    "image": "https://i.ibb.co/gF4wRmZ/Strawberry.png"
+  },
+  {
+    "id": 48,
+    "name": "Sweet-potatoes",
+    "price": 0.99,
+    "rating": 4.1,
+    "color": "#ef8962",
+    "category": "fruit",
+    "liked": false,
+    "image": "https://i.ibb.co/xKbksjV/Sweet-potatoes.png"
+  },
+  {
+    "id": 49,
+    "name": "Swiss-chard",
+    "price": 0.99,
+    "rating": 4.1,
+    "color": "#dac5c4",
+    "category": "vegetable",
+    "liked": false,
+    "image": "https://i.ibb.co/4TrfMyF/Swiss-chard.png"
+  },
+  {
+    "id": 50,
+    "name": "Tomato",
+    "price": 0.99,
+    "rating": 4.1,
+    "color": "#f6795b",
+    "category": "vegetable",
+    "liked": false,
+    "image": "https://i.ibb.co/3hWFTvd/Tomato.png"
+  },
+  {
+    "id": 51,
+    "name": "Turnip",
+    "price": 0.99,
+    "rating": 4.1,
+    "color": "#e18bba",
+    "category": "vegetable",
+    "liked": false,
+    "image": "https://i.ibb.co/VmTJX7Z/Turnip.png"
+  },
+  {
+    "id": 52,
+    "name": "watermelon",
+    "price": 0.99,
+    "rating": 4.1,
+    "color": "#ff8978",
+    "category": "fruit",
+    "liked": false,
+    "image": "https://i.ibb.co/VMncpQK/watermelon.png"
+  },
+  {
+    "id": 53,
+    "name": "white-carrot",
+    "price": 0.99,
+    "rating": 4.1,
+    "color": "#c6a34f",
+    "category": "fruit",
+    "liked": false,
+    "image": "https://i.ibb.co/0rh4xb8/white-carrot.png"
+  },
+  {
+    "id": 54,
+    "name": "Zucchini",
+    "price": 0.99,
+    "rating": 4.1,
+    "color": "#98b37e",
+    "category": "vegetable",
+    "liked": false,
+    "image": "https://i.ibb.co/BNk1BS6/Zucchini.png"
+  }
+]

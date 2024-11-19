@@ -1,0 +1,112 @@
+.timeline_container {
+    position: relative;
+    isolation: isolate;
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin-inline: auto;
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: 8px;
+        height: 100%;
+        background: #FF5722;
+        left: 50%;
+        z-index: -1;
+    }
+
+    .timeline_card {
+        position: relative;
+        padding: 20px;
+        padding-top: 50px;
+        width: 100%;
+        max-width: 46%;
+        margin-right: 80px;
+        transition: all 0.5s linear;
+
+        &:hover {
+            .year {
+                background-color: #FF5722;
+                color: #fff;
+                border-color: #fff;
+            }
+
+            .timeline_content {
+                background-color: #fda58f;
+                color: #fff;
+            }
+        }
+
+        .year {
+            position: absolute;
+            top: 30%;
+            right: -88px;
+            background-color: #fff;
+            padding: 24px 20px;
+            font-weight: 700;
+            color: #FF5722;
+            text-align: center;
+            border: 5px solid #FF5722;
+            border-radius: 50%;
+            transition: all 0.5s linear;
+
+        }
+
+
+        &:nth-child(even) {
+            align-self: flex-end;
+            margin-left: 80px;
+            margin-right: 0;
+
+            .year {
+                top: 30%;
+                left: -80px;
+                width: fit-content;
+            }
+        }
+
+        .timeline_content {
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 2px 2px 6px #00000060;
+            transition: all 0.5s linear;
+        }
+    }
+}
+
+
+@media screen and (max-width:700px) {
+    .timeline_container {
+        &::after {
+            display: none;
+        }
+
+        .timeline_card {
+            width: 100%;
+            max-width: 100%;
+
+            .timeline_content {
+
+                padding-top: 30px;
+            }
+
+            .year {
+                top: 0%;
+                right: auto;
+                left: 8%;
+            }
+
+            &:nth-child(even) {
+                .year {
+
+                    top: 0%;
+                    left: auto;
+                    right: 8%;
+                }
+            }
+        }
+
+    }
+}
