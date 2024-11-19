@@ -13,10 +13,10 @@ const Footer = () => {
               <div className="logo">
                 <Link className='logo_text'>
                   <img src={logo} className='logo_icon' />
-                  DryFruit<span>Wala</span>
+                  Foodsof<span>Bharat</span>
                 </Link>
               </div>
-              <p>Harvesting Happiness: DryFruitwala – Where Freshness Meets Flavor in Every Bite. Your Daily Dose of Nature's Best Delivered!</p>
+              <p>Harvesting Happiness: FoodsofBharat – Where Freshness Meets Flavor in Every Bite. Your Daily Dose of Nature's Best Delivered!</p>
               <a href="mailto:sampathmay10@gmail.com">Email: sampathmay10@gmail.com</a>
             </div>
             <ul className="sub_menu">

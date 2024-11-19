@@ -12,7 +12,7 @@ const About = () => {
         <div className="section_heading">
 
           <h1 className='title'><span className='primary'>A</span>bout</h1>
-          <p>Discover a world of freshness and flavor at DryFruitwala. Committed to quality and wholesome living, we bring nature's best to your doorstep, ensuring each bite is a delightful celebration.</p>
+          <p>Discover a world of freshness and flavor at FoodsofBharat. Committed to quality and wholesome living, we bring nature's best to your doorstep, ensuring each bite is a delightful celebration.</p>
         </div>
       </div>
 
@@ -23,7 +23,7 @@ const About = () => {
         <div className="content">
           <h1 className='title'><span className='primary'></span>About Website</h1>
           <p>
-          At DryFruitwala, we bring you the finest selection of dry fruits, seeds, and spices, handpicked to elevate both flavor and health in your everyday meals. From crunchy almonds and sweet dates to nutritious chia seeds and aromatic spices like cinnamon and cardamom, every product is chosen for its quality and freshness. Our mission is to make healthy living delicious and easy, with ingredients that are as wholesome as they are flavorful. With DryFruitwala, enjoy a convenient, nutritious, and flavorful way to enrich your culinary journey every day.  
+          At FoodsofBharat, we bring you the finest selection of dry fruits, seeds, and spices, handpicked to elevate both flavor and health in your everyday meals. From crunchy almonds and sweet dates to nutritious chia seeds and aromatic spices like cinnamon and cardamom, every product is chosen for its quality and freshness. Our mission is to make healthy living delicious and easy, with ingredients that are as wholesome as they are flavorful. With FoodsofBharat, enjoy a convenient, nutritious, and flavorful way to enrich your culinary journey every day.  
           </p>
           <div className="features">
 

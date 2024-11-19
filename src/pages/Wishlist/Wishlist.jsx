@@ -48,7 +48,7 @@ const Wishlist = () => {
               <div className="product-content">
                 <img src={product.image} loading="lazy" alt={product.name} className="product-image" />
                 <div className="product-details">
-                  <p className="price">${product.price} <sub>/kg</sub></p>
+                  <p className="price">Rs {product.price} <sub>/kg</sub></p>
                   <div>
                     <p className="product-name">{product.name}</p>
                     <p className="product-rating">

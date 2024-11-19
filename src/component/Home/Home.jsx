@@ -16,7 +16,7 @@ const Home = () => {
         <div className="content">
           <div className="text_content">
             <h2>Sri <span>Surya</span> Traders<span>  </span>  </h2>
-            <p>DryFruitwala is your online destination for a vibrant assortment of fresh fruits, crisp vegetables, and premium dry fruits. Our commitment is to deliver quality and freshness to your doorstep, ensuring a wholesome and delightful shopping experience.</p><br></br>
+            <p>FoodsofBharat is your online destination for a vibrant assortment of fresh fruits, crisp vegetables, and premium dry fruits. Our commitment is to deliver quality and freshness to your doorstep, ensuring a wholesome and delightful shopping experience.</p><br></br>
             <button onClick={handleGetStarted}>Explore Now</button> {/* Button with onClick handler */}
           </div>
           <div className="img_area">

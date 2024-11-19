@@ -20,7 +20,7 @@ const Features = () => {
       <FeatureCard
         img={earth}
         title="Sustainable Sourcing"
-        description="Embrace sustainability. DryFruitwala is committed to environmentally friendly practices, ensuring a positive impact on both health and the planet."
+        description="Embrace sustainability. FoodsofBharat is committed to environmentally friendly practices, ensuring a positive impact on both health and the planet."
       />
       <FeatureCard
         img={restaurants}

@@ -30,7 +30,7 @@ const Header = () => {
           <div className="logo">
             <Link className='logo_text'>
               <img src={logo} className='logo_icon' />
-              DryFruit<span>Wala</span>
+              Foodsof<span>Bharat</span>
             </Link>
           </div>
           <ul className="main_menu" ref={menuRef}>
